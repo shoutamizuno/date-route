@@ -18,7 +18,6 @@ struct ContentView: View {
                     HTML(
                         "iframe",
                         [
-                            "width": "640",
                             "height": "480",
                             "src": "https://www.google.com/maps/d/u/0/embed?mid=1kgKxJziBKyuttb84jNUci5lgUe9qS0gz&ehbc=2E312F"
                         ]
