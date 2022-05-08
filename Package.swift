@@ -17,6 +17,6 @@ let package = Package(
             ]),
         .testTarget(
             name: "date-routeTests",
-            dependencies: ["date-route"]),
+            dependencies: ["date-route"])
     ]
 )
