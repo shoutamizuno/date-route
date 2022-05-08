@@ -10,10 +10,10 @@ struct TokamakApp: App {
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("下北沢〜三軒茶屋")
+        ScrollView {
+            VStack {
+                Text("下北沢〜三軒茶屋")
 
-            ScrollView {
                 VStack {
                     HTML(
                         "iframe",
